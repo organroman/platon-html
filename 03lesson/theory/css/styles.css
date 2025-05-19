@@ -1,0 +1,15 @@
+div {
+  background-color: goldenrod;
+  width: 100px;
+  height: 100px;
+}
+
+.div-two {
+  width: 200px;
+  height: 200px;
+  background-color: deepskyblue;
+}
+
+#div-three {
+    background-color: rebeccapurple;
+}

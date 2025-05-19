@@ -1,0 +1,64 @@
+.paragraph::first-letter {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.paragraph::first-line {
+  color: blueviolet;
+}
+
+.input::placeholder {
+  color: indianred;
+  font-size: 20px;
+}
+
+.list-item:nth-child(2) {
+  color: green;
+}
+
+.list-item:first-child {
+  color: blue;
+}
+
+.list-item:last-child {
+  color: yellow;
+}
+
+.list-item::marker {
+  content: "♡";
+}
+
+.link {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  transition: all;
+}
+
+.link:hover {
+  color: darkorange;
+  font-size: 40px;
+}
+
+.link:active {
+  color: red;
+}
+
+.link:visited {
+  color: blue;
+}
+
+.input:focus {
+  border: 5px solid pink;
+  display: block;
+}
+
+.paragraph::after {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: bisque;
+  margin-top: 20px;
+}

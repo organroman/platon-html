@@ -1,0 +1,58 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#hero {
+  padding-top: 528px;
+  padding-bottom: 149px;
+  background-image: url("../img/Layer\ 21\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subtitle {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.hero-title {
+  display: inline-block;
+  font-size: 54px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0 31px;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-title-color {
+  display: inline-block;
+  color: #f48e0b;
+  padding: 38px 24px 38px 0;
+  border-right: 1px solid #f48e0b;
+}
